@@ -45,7 +45,8 @@ export const RespTableRow = styled.div`
 // table row cell
 export const TableBodyCell = styled.div`
     display: table-cell;
-    border: 1px solid #000;
+    border: 1px solid #ccc;
+    padding: 5px;
 `;
 
 // table footer
