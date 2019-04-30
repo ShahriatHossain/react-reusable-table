@@ -1,11 +1,11 @@
 {
   "name": "react-reusable-table",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "Reusable table component for reactjs",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShahriatHossain/react-reusable-table.git"
+    "url": "git+https://github.com/ShahriatHossain/react-reusable-table-support.git"
   },
   "keywords": [
     "react reusable table",
@@ -13,9 +13,9 @@
   ],
   "author": "Shahriat Hossain <somel90@gmail.com>",
   "bugs": {
-    "url": "https://github.com/ShahriatHossain/react-reusable-table/issues"
+    "url": "https://github.com/ShahriatHossain/react-reusable-table-support/issues"
   },
-  "homepage": "https://github.com/ShahriatHossain/react-reusable-table#readme",
+  "homepage": "https://github.com/ShahriatHossain/react-reusable-table-support#readme",
   "license": "MIT",
   "scripts": {
     "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
