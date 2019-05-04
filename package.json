@@ -1,6 +1,6 @@
 {
   "name": "react-reusable-table",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "description": "Reusable table component for reactjs",
   "main": "dist/index.js",
   "repository": {
@@ -21,7 +21,7 @@
     "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
   },
   "peerDependencies": {
-    "react": "^16.8.6"
+    "react": "^16.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
@@ -29,13 +29,13 @@
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-react": "^7.0.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0"
+    "react-dom": "^16.8.6"
   },
   "files": [
     "dist/*"
   ],
   "dependencies": {
+    "react-router-dom": "^5.0.0",
     "styled-components": "^4.2.0"
   }
 }
